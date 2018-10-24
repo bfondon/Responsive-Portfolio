@@ -214,3 +214,20 @@ body {
     background: #4aaaa5;
     border: 0 none;
   }
+
+  @media screen and (max-width:980px){
+    .main-section {width: 800px;float: left;}
+    .auth-image {width: 40%;float:left;}   
+  }
+/* Need to figure out how to make center */
+  @media screen and (max-width:768px){
+    .main-section {width: 700px;margin:0 auto;}
+    .auth-image {width: 60%;}
+  }
+/* Nav bar shifts as the page narrows. Center main section (is there a command, or use relative positioning? */    
+  @media screen and (max-width:640px){
+    #logo {width:640px;}
+    nav {width:640px;text-align:center;}
+    .main-section {width:600px;margin: 0 auto;}
+    .auth-image {width:560px;}
+  }
